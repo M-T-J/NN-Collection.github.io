@@ -89,7 +89,7 @@ button {
   width: 1.9rem;
   height: 1.5px;
   border-radius: 2px;
-  background-color: #eee;
+  background-color: red;
   transition: 0.5s;
   position: relative;
 }
@@ -100,7 +100,7 @@ button {
   position: absolute;
   width: inherit;
   height: inherit;
-  background-color: #eee;
+  background-color: red;
   transition: 0.5s;
 }
 
@@ -214,7 +214,9 @@ header {
 
 ul {
   list-style: none;
+  
 }
+
 
 .links a {
   text-decoration: none;
@@ -226,7 +228,7 @@ ul {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: 0.3s;
-  opacity: 0;
+  opacity: 100%;
   transform: translateY(10px);
   animation: hide 0.5s forwards ease;
 }
@@ -240,6 +242,8 @@ ul {
 
 .container.active .links a {
   animation: appear 0.5s forwards ease var(--i);
+  background-color: rgb(12, 196, 209);
+  border-radius: 20px;
 }
 
 @keyframes appear {
@@ -493,6 +497,13 @@ ul {
   text-align: justify;
   opacity: 100%;
 
+}
+
+.copyright{
+  text-align: center;
+  margin: 100px 0;
+  font-weight: 500;
+  color: white
 }
 
 @media (max-width: 600px) {
