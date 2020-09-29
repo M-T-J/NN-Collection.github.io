@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NN-Collection</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style1.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="menu">
+        <h3 class="logo shadow-dark"><span>N N Collection</span></h3>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="main">
+        <header>
+          <div class="overlay shadow-dark">
+
+            <div class="picture">
+              <div class="profile-pic">
+                <img src="logo1.JPG" alt="Profile Picture" class="shadow-dark">
+              </div>
+
+              <div class="inner">
+                <h2 class="title">Contact</h2>
+                
+                <p>
+                    Place Your Order Or If You Have Any Question You Can Ask Me Below And I Will Respond As Soon As Possible
+                    Thank You For Visiting Us.
+                </p>
+
+              </div>
+            </div>
+        </header>
+      </div>
+
+      <div class="shadow one"></div>
+      <div class="shadow two"></div>
+    </div>
+
+    <div class="links">
+      <ul>
+        <li>
+          <a href="index.html" style="--i: 0.05s;">Home</a>
+        </li>
+        <li>
+          <a href="catalog.html" style="--i: 0.1s;">Catalog</a>
+        </li>
+        <li>
+          <a href="testimony.html" style="--i: 0.2s;">Testimonials</a>
+        </li>
+        <li>
+          <a href="about.html" style="--i: 0.25s;">About</a>
+        </li>
+        <li>
+          <a href="contact.html" style="--i: 0.3s;">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!--conatct-->
+  <div class="container">
+    <h3 class="subtitle">Contact</h3>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted) {resetForm()}"></iframe>
+    <form class="contact-form  shadow-dark" id="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdGDk_KrkKFRfNurq1Gur1r3JdFHA_sALDTpEUFmbVtq9rxKg/formResponse" method="post" target="hidden_iframe" role="form" onsubmit="return validateForm();">
+        <div class="input-fields">
+            <input type="text" required class="input" id="name" name="entry.470748624" placeholder="Name">
+
+            <input type="text" required class="input" id="email" name="entry.1615097405" placeholder="E-Mail">
+
+            <input type="text" required class="input" id="watsapp-number" name="entry.1777370404" placeholder="Watsapp Number">
+
+            <input type="text" required class="input" id="product-code" name="entry.472806470" placeholder="Product Code">
+        </div>
+
+        <div class="msg">
+            <textarea required placeholder="Message" id="message" name="entry.751037949"></textarea>
+            <button type="submit" name="submit" class="btn">Send</button>
+            <div id= "success" ><br></div> 
+
+        </div>     
+<!--conatct end-->
+    </form>  
+</div>
+
+      <script src="main.js"></script>
+</body>
+
+</html>
